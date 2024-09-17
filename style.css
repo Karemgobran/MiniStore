@@ -26,6 +26,13 @@ html {
     margin-right: auto;
 }
 
+@media(max-width:600px) {
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -349,3 +356,114 @@ a {
 }
 
 /*  end company-services */
+/* start products */
+.products {
+    margin: 35px 0;
+}
+
+.products .product-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products .product-header h2 {
+    font-size: calc(1.325rem + .9vw);
+    color: rgb(33 37 41);
+}
+
+.products .product-header a {
+    text-decoration: underline;
+    border: none;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    color: var(--main-color);
+}
+
+.products .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.products .boxes .box {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.products .boxes .image {
+    overflow: hidden;
+    position: relative;
+}
+
+.products .boxes .box .image .cart {
+    position: absolute;
+    bottom: -85px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    padding: 1px 13px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 40px;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+
+}
+
+.products .boxes .box .image .cart:hover {
+    background-color: var(--main-color-alt);
+}
+
+.products .boxes .box .image:hover .cart {
+    bottom: 50px;
+}
+
+.products .boxes .box .image .cart p {
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
+
+.products .boxes .box .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products .boxes .box .content a {
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: 0.3s color ease-out;
+    font-size: 1.5em;
+}
+
+.products .boxes .box .content span {
+    color: var(--main-color-alt);
+    text-decoration: none;
+    transition: 0.3s color ease-out;
+    font-size: 1.5em;
+}
+
+.products .dotet {
+    display: flex;
+    justify-content: center;
+}
+
+.products .dotet span {
+    width: 15px;
+    height: 15px;
+    background-color: var(--main-color-alt);
+    border-radius: 50%;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.products .dotet .current {
+    background-color: #717171;
+}
+
+/* end products */
