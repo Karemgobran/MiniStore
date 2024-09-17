@@ -869,6 +869,12 @@ a {
     .Subscribe .container .parent .content p {
         text-align: center;
     }
+
+    .Subscribe .container .search,
+    .Subscribe .container .content {
+        width: 100%;
+
+    }
 }
 
 
