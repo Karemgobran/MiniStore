@@ -312,7 +312,7 @@ a {
 /* End section */
 /*  start company-services */
 .company-services {
-    margin-top: 100px;
+    padding-top: 125px;
 }
 
 .company-services .container {
@@ -358,7 +358,7 @@ a {
 /*  end company-services */
 /* start products */
 .products {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .products .product-header {
@@ -469,7 +469,7 @@ a {
 /* end products */
 /* start  Watches*/
 .Watches {
-    margin-top: 135px;
+    padding-top: 135px;
     margin-bottom: 35px;
 }
 
