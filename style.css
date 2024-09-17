@@ -579,3 +579,70 @@ a {
 }
 
 /* end  Watches*/
+/* start sale */
+.sale {
+    background: url("./image/single-image1.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    height: calc(100vh - 91px);
+    width: 100%;
+    background-color: #EDF1F3;
+    position: relative;
+}
+
+.sale .container {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    width: 50%;
+}
+
+@media(max-width:767px) {
+    .sale {}
+
+    .sale .container {
+        /* transform: translatex(-50%); */
+        left: 10px;
+        text-align: center;
+        width: auto;
+    }
+}
+
+
+
+.sale .container h3 {
+    font-size: calc(1.3rem + .6vw);
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(33 37 41);
+}
+
+.sale .container h2 {
+    color: rgb(33 37 41);
+    text-transform: uppercase !important;
+    font-size: calc(1.575rem + 3.9vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.sale .container button {
+    padding: 0.7em 2.8em;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+    margin-top: 26px;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+
+.sale .container button:hover {
+    background-color: var(--main-color-alt);
+}
+
+/* end sale */
