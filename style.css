@@ -312,7 +312,7 @@ a {
 /* End section */
 /*  start company-services */
 .company-services {
-    margin: 70px 0;
+    margin-top: 100px;
 }
 
 .company-services .container {
@@ -358,7 +358,7 @@ a {
 /*  end company-services */
 /* start products */
 .products {
-    margin: 35px 0;
+    margin-top: 100px;
 }
 
 .products .product-header {
@@ -467,3 +467,115 @@ a {
 }
 
 /* end products */
+/* start  Watches*/
+.Watches {
+    margin-top: 135px;
+    margin-bottom: 35px;
+}
+
+.Watches .product-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Watches .product-header h2 {
+    font-size: calc(1.325rem + .9vw);
+    color: rgb(33 37 41);
+}
+
+.Watches .product-header a {
+    text-decoration: underline;
+    border: none;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    color: var(--main-color);
+}
+
+.Watches .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.Watches .boxes .box {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.Watches .boxes .image {
+    overflow: hidden;
+    position: relative;
+}
+
+.Watches .boxes .box .image .cart {
+    position: absolute;
+    bottom: -85px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    padding: 1px 13px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 40px;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+
+}
+
+.Watches .boxes .box .image .cart:hover {
+    background-color: var(--main-color-alt);
+}
+
+.Watches .boxes .box .image:hover .cart {
+    bottom: 50px;
+}
+
+.Watches .boxes .box .image .cart p {
+    font-size: 1.1em;
+    letter-spacing: 2px;
+}
+
+.Watches .boxes .box .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Watches .boxes .box .content a {
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: 0.3s color ease-out;
+    font-size: 1.5em;
+}
+
+.Watches .boxes .box .content span {
+    color: var(--main-color-alt);
+    text-decoration: none;
+    transition: 0.3s color ease-out;
+    font-size: 1.5em;
+}
+
+.Watches .dotet {
+    display: flex;
+    justify-content: center;
+}
+
+.Watches .dotet span {
+    width: 15px;
+    height: 15px;
+    background-color: var(--main-color-alt);
+    border-radius: 50%;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.Watches .dotet .current {
+    background-color: #717171;
+}
+
+/* end  Watches*/
