@@ -252,14 +252,15 @@ a {
     padding: 0.8em 2.8em;
     font-size: 1.1em;
     letter-spacing: 2px;
+    border: none;
     background-color: #212529;
     color: white;
     transition: var(--main-transition) ease-in-out;
 }
 
 .section .banner-content .btn:hover {
-    background-color: var(--main-color);
-    border: none;
+    background-color: var(--main-color-alt);
+
 }
 
 .section .image {
