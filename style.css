@@ -720,3 +720,67 @@ a {
 
 
 /* end latest-post */
+
+/*  strat notification */
+.notification {
+    padding-bottom: 70px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.notification .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+}
+
+
+.notification .container .icon i {
+    color: var(--main-color-alt);
+    font-size: 120px;
+    padding-bottom: 17px;
+}
+
+.notification .container .content>p {
+    font-size: 2.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+@media(max-width:767px) {
+    .notification .container .content>p {
+        font-size: 1.5em;
+
+    }
+}
+
+.notification .container .content .stars i {
+    color: var(--main-color-alt);
+}
+
+.notification .container .content span {
+    color: rgb(33 37 41);
+}
+
+.notification .chevron {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 87%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.notification .chevron i {
+    font-size: 100px;
+    color: var(--main-color);
+    cursor: pointer;
+    font-weight: 100;
+
+}
+
+/*  end notification */
