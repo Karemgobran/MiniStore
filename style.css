@@ -225,7 +225,7 @@ a {
 }
 
 .section .container .page-two {
-    display: none;
+    /* display: none; */
 }
 
 .section .banner-content {
