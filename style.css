@@ -381,7 +381,7 @@ a {
 
 .products .boxes {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 20px 0;
     flex-wrap: wrap;
 }
