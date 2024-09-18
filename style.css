@@ -198,16 +198,20 @@ a {
     padding-left: 50px;
     padding-right: 50px;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .section .container .page {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    /* position: absolute; */
     transition: 0.3s ease-in-out;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.section .container .page::-webkit-scrollbar {
+    display: none;
 }
 
 .section .container .page-one,
@@ -216,12 +220,16 @@ a {
     justify-content: center;
     align-items: center;
     height: 100%;
-    flex: 1;
+    flex: 0 0 auto;
+    width: 100%;
+    margin-right: 40px;
 
 }
 
+.section .container .page-one {}
+
 .section .container .page-two {
-    display: none;
+    /* display: none; */
 }
 
 .section .banner-content {
@@ -230,7 +238,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    margin-left: 80px;
+    margin-left: 150px;
 }
 
 .section .banner-content h1 {
@@ -265,7 +273,17 @@ a {
 }
 
 .section .image img {
-    width: 100%;
+    /* width: 100%; */
+}
+
+@media(max-width:767px) {
+    .section .image img {
+        width: 100%;
+    }
+
+    .section .container {
+        padding: 0;
+    }
 }
 
 .section .chevron {
@@ -294,12 +312,14 @@ a {
         align-items: center;
     }
 
-    .section .container .page-one {
+    .section .container .page-one,
+    .section .container .page-two {
         flex-direction: column-reverse;
+        margin: 0;
     }
 
     .section .banner-content h1 {
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
     }
 }
