@@ -975,4 +975,112 @@ a {
     }
 }
 
-/*start shop insta  */
+/*end shop insta  */
+
+/* start  footer */
+.footer {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #AEAEAE;
+}
+
+
+
+.footer .container .boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    z-index: 2;
+    position: relative;
+}
+
+.footer .container .boxes .box {
+    flex: 1;
+}
+
+.footer .container .boxes .one p {
+    font-size: 1.2em;
+    color: #AEAEAE;
+    margin: 20px 0;
+}
+
+.footer .container .boxes .one .icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container .boxes .one .icons i {
+    font-size: 20px;
+    color: #6c757d;
+}
+
+.footer .container .boxes .one .icons i:hover {
+    color: #72AEC8;
+}
+
+.footer .container .boxes .two,
+.footer .container .boxes .three {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .container .boxes .two h3,
+.footer .container .boxes .three h3 {
+    font-size: 22px;
+}
+
+.footer .container .boxes .two ul,
+.footer .container .boxes .three ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.footer .container .boxes .two ul a,
+.footer .container .boxes .three ul a {
+    font-size: 21px;
+    letter-spacing: 1.2px;
+    color: #212529;
+}
+
+.footer .container .boxes .two ul a:hover,
+.footer .container .boxes .three ul a:hover {
+    color: #72AEC8;
+}
+
+.footer .container .boxes .four {}
+
+.footer .container .boxes .four h3 {
+    font-size: 22px;
+    padding-bottom: 9px;
+}
+
+.footer .container .boxes .four p {
+    font-size: 19px;
+    letter-spacing: 0.4px;
+    padding-bottom: 4px;
+    padding-top: 13px;
+
+}
+
+.footer .container .boxes .four span a {
+    font-size: 16px;
+    color: #212529;
+
+}
+
+.footer .container .boxes .four span a:hover {
+    color: #72AEC8;
+}
+
+.by {
+    text-align: center;
+    padding: 30px;
+}
+
+.by h3 {
+    color: #72AEC8;
+}
+
+/* end  footer */
