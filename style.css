@@ -884,3 +884,95 @@ a {
 
 
 /* end  Subscribe*/
+/* start shop insta */
+.shop-insta {
+    padding-bottom: 100px;
+}
+
+.shop-insta .container {}
+
+.shop-insta .container .header h3 {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 3.2px;
+}
+
+.shop-insta .container .boxes {
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.shop-insta .container .boxes .image {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.shop-insta .container .boxes .image::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #87828242;
+    transition: 0.3s ease-in-out;
+}
+
+.shop-insta .container .boxes .image:hover::before {
+    top: 0;
+}
+
+@media(max-width:767px) {
+    .shop-insta .container .boxes {
+        flex-direction: column;
+    }
+}
+
+.shop-insta .container .boxes .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.shop-insta .container .boxes .image a {
+    position: absolute;
+    font-size: 48px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #25abe6;
+    transition: 0.3s linear;
+}
+
+.shop-insta .container .boxes .image:hover a {
+    top: 50%;
+    animation: 0.5s ease-in-out 0s normal none running up-and-down;
+}
+
+@keyframes up-and-down {
+
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*start shop insta  */
