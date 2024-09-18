@@ -519,18 +519,27 @@ a {
     justify-content: space-evenly;
     margin: 20px 0;
     flex-wrap: wrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.Watches .boxes::-webkit-scrollbar {
+    display: none;
 }
 
 @media(max-width:767px) {
     .Watches .boxes {
-        justify-content: center;
+        flex-wrap: nowrap;
     }
 }
 
 .Watches .boxes .box {
-    overflow: hidden;
     position: relative;
     margin-bottom: 20px;
+    margin-right: 40px;
+    flex: 0 0 auto;
+    width: 260px;
+    height: 450px;
 }
 
 .Watches .boxes .image {
