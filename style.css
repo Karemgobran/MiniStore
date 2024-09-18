@@ -831,7 +831,7 @@ a {
     border: none;
     outline: none;
     font-size: 16px;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.1px;
 
 }
 
@@ -855,6 +855,7 @@ a {
     .Subscribe .container .search [type="email"] {
         width: 100%;
         margin-top: 10px;
+        padding: 15px
     }
 }
 
@@ -874,6 +875,10 @@ a {
     .Subscribe .container .content {
         width: 100%;
 
+    }
+
+    .Subscribe .container .parent .content h2 {
+        text-align: center;
     }
 }
 
