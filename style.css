@@ -992,6 +992,7 @@ a {
     gap: 30px;
     z-index: 2;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .footer .container .boxes .box {
@@ -1081,6 +1082,12 @@ a {
 
 .by h3 {
     color: #72AEC8;
+}
+
+@media(max-width:767px) {
+    .footer .container .boxes {
+        text-align: center;
+    }
 }
 
 /* end  footer */
