@@ -1087,6 +1087,7 @@ a {
 @media(max-width:767px) {
     .footer .container .boxes {
         text-align: center;
+        flex-direction: column;
     }
 }
 
