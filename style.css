@@ -10,10 +10,6 @@
     --main-transition: 0.3s;
 }
 
-body {
-    /* font-family: "cairo", sans-serif; */
-    /* overflow: hidden; */
-}
 
 html {
     scroll-behavior: smooth;
@@ -225,7 +221,7 @@ a {
 }
 
 .section .container .page-two {
-    /* display: none; */
+    display: none;
 }
 
 .section .banner-content {
@@ -887,8 +883,6 @@ a {
     padding-bottom: 100px;
 }
 
-.shop-insta .container {}
-
 .shop-insta .container .header h3 {
     text-align: center;
     font-size: 28px;
@@ -1047,8 +1041,6 @@ a {
 .footer .container .boxes .three ul a:hover {
     color: #72AEC8;
 }
-
-.footer .container .boxes .four {}
 
 .footer .container .boxes .four h3 {
     font-size: 22px;
