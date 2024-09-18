@@ -943,7 +943,7 @@ a {
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    color: #25abe6;
+    color: white;
     transition: 0.3s linear;
 }
 
