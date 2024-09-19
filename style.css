@@ -758,6 +758,26 @@ a {
     width: 80%;
 }
 
+.notification .container .parent {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.notification .container .parent::-webkit-scrollbar {
+    display: none;
+}
+
+.notification .container .content {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 450px;
+}
+
+.notification .container .margin {
+    margin-right: 50%;
+}
 
 .notification .container .icon i {
     color: var(--main-color-alt);
