@@ -518,7 +518,7 @@ a {
     display: flex;
     justify-content: space-evenly;
     margin: 20px 0;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     overflow-x: auto;
     scroll-behavior: smooth;
 }
@@ -529,16 +529,16 @@ a {
 
 @media(max-width:767px) {
     .Watches .boxes {
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
     }
 }
 
 .Watches .boxes .box {
     position: relative;
     margin-bottom: 20px;
-    margin-right: 60px;
+    margin-right: 20px;
     flex: 0 0 auto;
-    width: 260px;
+    width: 320px;
     height: 450px;
 }
 
