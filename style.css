@@ -484,6 +484,7 @@ a {
 .products .boxes .box .content {
     display: flex;
     justify-content: space-between;
+    padding: 0 15px;
 }
 
 .products .boxes .box .content a {
@@ -568,7 +569,6 @@ a {
     margin-bottom: 20px;
     flex: 0 0 auto;
     width: 320px;
-    height: 450px;
 }
 
 .Watches .boxes .box:not(:last-child) {
@@ -615,6 +615,7 @@ a {
 .Watches .boxes .box .content {
     display: flex;
     justify-content: space-between;
+    padding: 15px;
 }
 
 .Watches .boxes .box .content a {
