@@ -399,7 +399,13 @@ a {
     display: flex;
     justify-content: space-evenly;
     margin: 20px 0;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.products .boxes::-webkit-scrollbar {
+    display: none;
 }
 
 @media(max-width:767px) {
@@ -409,9 +415,12 @@ a {
 }
 
 .products .boxes .box {
-    overflow: hidden;
     position: relative;
     margin-bottom: 20px;
+    margin-right: 20px;
+    flex: 0 0 auto;
+    width: 320px;
+    height: 450px;
 }
 
 .products .boxes .image {
