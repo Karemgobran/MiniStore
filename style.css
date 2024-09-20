@@ -428,7 +428,7 @@ a {
 
 @media(max-width:767px) {
     .products .boxes {
-        justify-content: center;
+        /* justify-content: center; */
     }
 }
 
