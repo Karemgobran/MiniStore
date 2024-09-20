@@ -435,10 +435,13 @@ a {
 .products .boxes .box {
     position: relative;
     margin-bottom: 20px;
-    margin-right: 20px;
     flex: 0 0 auto;
     width: 320px;
     height: 450px;
+}
+
+.products .boxes .box:not(:last-child) {
+    margin-right: 20px;
 }
 
 .products .boxes .image {
@@ -563,10 +566,13 @@ a {
 .Watches .boxes .box {
     position: relative;
     margin-bottom: 20px;
-    margin-right: 20px;
     flex: 0 0 auto;
     width: 320px;
     height: 450px;
+}
+
+.Watches .boxes .box:not(:last-child) {
+    margin-right: 20px;
 }
 
 .Watches .boxes .image {
