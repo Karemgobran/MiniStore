@@ -28,3 +28,22 @@ productContainers.forEach((item, i) => {
     item.scrollLeft -= containerWidth;
   });
 });
+
+// ----------up botton
+
+let mybtn = document.querySelector("button");
+window.onscroll = function () {
+  if (window.scrollY >= 600) {
+    mybtn.style.display = "block";
+  } else if (window.scrollY <= 600) {
+    mybtn.style.display = "none";
+  }
+};
+
+mybtn.onclick = function () {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+};
